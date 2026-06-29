@@ -51,19 +51,25 @@ body {
 }
 
 /* Hero */
-.hero{
-  background:linear-gradient(
-    135deg,
-    max-width:1200px;
-    margin:90px auto 0;
-    #2F6B44,
-    #6BA15D
-  );
+.hero {
+  max-width: 1200px;
+  margin: 90px auto 0;
+  padding: 90px 20px 70px;
+  text-align: center;
 
-  padding:70px 20px 55px;
-  text-align:center;
-  border-radius:0 0 30px 30px;
+  background: linear-gradient(135deg, #2F6B44, #6BA15D);
+  color: white;
+
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.12);
 }
+}
+
+.hero h1,
+.hero .role,
+.hero .slogan,
+.hero .motto {
+  color: white;
 }
 
 .hero h1 {
