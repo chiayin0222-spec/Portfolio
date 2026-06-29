@@ -237,3 +237,70 @@ footer {
     font-size:15px;
 
 }
+.about-section {
+  padding: 70px 20px;
+  background: #eef5ee;
+}
+
+.about-card {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  border-radius: 26px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.profile {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #eef5ee;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.about-text h2 {
+  color: #1f5f3b;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.about-text h3 {
+  color: #3f4f42;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.tag span {
+  display: inline-block;
+  background: #2f6b44;
+  color: white;
+  padding: 9px 16px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
