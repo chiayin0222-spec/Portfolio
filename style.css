@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 60px;
+  padding: 0 80px;
   box-sizing: border-box;
   z-index: 999;
 }
@@ -54,6 +54,8 @@ body {
 .hero{
   background:linear-gradient(
     135deg,
+    max-width:1200px;
+    margin:90px auto 0;
     #2F6B44,
     #6BA15D
   );
@@ -151,8 +153,9 @@ h2 {
 }
 
 .intro p {
-  font-size: 18px;
-  line-height: 1.9;
+  .intro p{
+    font-size:20px;
+    line-height:2;
 }
 
 .tag span {
