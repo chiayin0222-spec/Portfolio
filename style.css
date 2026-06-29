@@ -52,30 +52,30 @@ body {
 
 /* Hero */
 .hero{
+  background:linear-gradient(
+    135deg,
+    #2F6B44,
+    #6BA15D
+  );
 
-    background:linear-gradient(
-        135deg,
-        #2F6B44,
-        #6BA15D
-    );
-
-    padding:100px 20px 80px;
-    text-align:center;
-    border-radius:0 0 30px 30px;
+  padding:70px 20px 55px;
+  text-align:center;
+  border-radius:0 0 30px 30px;
+}
 }
 
 .hero h1 {
-     font-size:64px;
-    margin-bottom:20px;
+     font-size:52px;
+    margin-bottom:16px;
 }
 
 .role{
-    font-size:24px;
+    font-size:20px;
 }
 
 .slogan{
-    font-size:20px;
-    margin:25px 0;
+    font-size:18px;
+    margin:18px 0;
 }
 
 .btn {
