@@ -67,3 +67,22 @@ footer {
   padding: 30px;
   color: #4f5f52;
 }
+.profile{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    display:block;
+
+    margin:30px auto;
+
+    border:6px solid white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
