@@ -281,3 +281,10 @@ footer {
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     margin: 30px 0;
 }
+.motto {
+  font-size: 18px;
+  font-style: italic;
+  color: #f5fff5;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
