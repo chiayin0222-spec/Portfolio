@@ -52,15 +52,12 @@ body {
 
 /* Hero */
 .hero {
-  min-height: 520px;
-  background: linear-gradient(135deg, #1f5f3b, #7fb069);
-  color: white;
-  text-align: center;
-  padding: 90px 20px 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    min-height:380px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:60px 20px;
 }
 
 .hero h1 {
