@@ -6,10 +6,17 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #1f5f3b, #7fb069);
-  color: white;
-  text-align: center;
-  padding: 120px 20px 90px;
+
+    min-height:550px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
 }
 
 .hero h1 {
@@ -85,9 +92,9 @@ footer {
 }
 .profile{
 
-    width:180px;
+    width:260px;
 
-    height:180px;
+    height:260px;
 
     border-radius:50%;
 
