@@ -51,25 +51,31 @@ body {
 }
 
 /* Hero */
-.hero {
-   padding:90px 20px;
+.hero{
+
+    background:linear-gradient(
+        135deg,
+        #2F6B44,
+        #6BA15D
+    );
+
+    padding:100px 20px 80px;
     text-align:center;
+    border-radius:0 0 30px 30px;
 }
 
 .hero h1 {
-  font-size: 56px;
-  font-weight: 700;
-  margin-bottom: 18px;
+     font-size:64px;
+    margin-bottom:20px;
 }
 
-.role {
-  font-size: 20px;
-  margin-bottom: 12px;
+.role{
+    font-size:24px;
 }
 
-.slogan {
-  font-size: 18px;
-  margin-bottom: 28px;
+.slogan{
+    font-size:20px;
+    margin:25px 0;
 }
 
 .btn {
