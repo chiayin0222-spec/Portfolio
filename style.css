@@ -254,8 +254,13 @@ footer {
 
 }
 .about-section {
-  padding: 70px 20px;
-  background: #eef5ee;
+  .about-section{
+
+    margin-top:-80px;
+
+    position:relative;
+
+    z-index:10;
 }
 
 .about-card {
